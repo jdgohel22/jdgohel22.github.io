@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="counter" data-count="900">0</div>
+    <div class="counter" data-count="1200">2</div>
+    <div class="counter" data-count="2000">2</div>
+    <div class="counter" data-count="700">2</div>
+    <input type="file" name="file" id="file">
+    <img src="" alt="" id="img">
+    <button onclick="show()">Click</button>
+    <script>
+        function show() {
+            var a = document.getElementById('file').value;
+            console.log(a);
+            var b = document.getElementById('img')
+            b.setAttribute('src', a)
+
+        }
+    </script>
+</body>
+
+</html>
