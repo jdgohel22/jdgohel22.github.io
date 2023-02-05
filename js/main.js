@@ -55,7 +55,7 @@ function addStar() {
   scene.add(star);
 }
 
-Array(200).fill().forEach(addStar);
+Array(600).fill().forEach(addStar);
 
 // Background
 const bg_texture = "./images/space.jpg"
